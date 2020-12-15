@@ -1,0 +1,37 @@
+﻿@model CRUDMVC.Models.ViewModels.TablaViewModel
+@{
+    ViewBag.Title = "Editar registro";
+}
+
+<h2>@ViewBag.Title </h2>
+
+@using (Html.BeginForm("Editar", "Tabla", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-12">
+            @Html.HiddenFor(d=> d.Id)
+            <div>
+                @Html.LabelFor(d => d.Nombre)
+                @Html.TextBoxFor(d => d.Nombre, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Nombre, null, new { @class = "rebeccapurple" })
+            </div>
+
+            <div>
+                @Html.LabelFor(d => d.Correo)
+                @Html.TextBoxFor(d => d.Correo, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Correo, null, new { @class = "rebeccapurple" })
+            </div>
+
+            <div>
+                @Html.LabelFor(d => d.fecha_Nacimiento)<br />
+                @Html.EditorFor(d => d.fecha_Nacimiento, "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.fecha_Nacimiento, null, new { @class = "rebeccapurple" })
+            </div>
+        </div>
+        <br />
+        <div style="text-align:right;">
+            <input value="Guardar" class="btn btn-primary" type="submit" />
+        </div>
+    </div>
+
+}

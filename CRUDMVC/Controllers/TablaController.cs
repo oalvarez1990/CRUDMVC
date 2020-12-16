@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using CRUDMVC.Models;
 using CRUDMVC.Models.ViewModels;
+using System.Data;
 
 namespace CRUDMVC.Controllers
 {
@@ -22,8 +23,7 @@ namespace CRUDMVC.Controllers
                            Id = d.id,
                            Nombre = d.nombre,
                            Correo = d.correo,
-                           fecha_Nacimiento = d.fecha_Nacimiento,
-                           
+
                        }).ToList();
             }
 
@@ -122,7 +122,7 @@ namespace CRUDMVC.Controllers
                 db.SaveChanges();
             }
             return Redirect("~/Tabla/");
-       
+
         }
 
     }

@@ -83,8 +83,8 @@ C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\bin\es\System.Web.Razor.resources
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\bin\es\System.Web.WebPages.resources.dll
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\obj\Debug\CRUDMVC.csprojAssemblyReference.cache
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\obj\Debug\CRUDMVC.csproj.CoreCompileInputs.cache
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\obj\Debug\CRUDMVC.csproj.CopyComplete
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\obj\Debug\CRUDMVC.dll
 C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\obj\Debug\CRUDMVC.pdb
+C:\Users\OALVAREZ\source\repos\CRUDMVC\CRUDMVC\obj\Debug\CRUDMVC.csprojAssemblyReference.cache
